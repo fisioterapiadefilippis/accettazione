@@ -1,0 +1,85 @@
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.titolo {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+legend {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+label {
+  color: white;
+  font-size: 18px;
+}
+
+fieldset {
+  border: 0;
+  margin-left: 10%;
+}
+
+main {
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  border-radius: 15px;
+  width: 60%;
+  background-color: rgba(159, 134, 192, 0.5);
+}
+
+input{
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.testo{
+  width: 86%;
+  height: 28px;
+  font-size: 18px;
+  color: rgb(71, 18, 107);
+}
+
+textarea{
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  width: 86%;
+  height: 60px;
+  font-size: 16px;
+}
+
+.altro {
+  width: 50%;
+  height: 20px;
+  font-size: 16px;
+  color: rgb(71, 18, 107);
+}
+
+input.btn{
+  margin-bottom: 3%;
+  margin-left: 39%;
+  height: 30px;
+  width: 200px;
+  color: black;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: rgb(192, 82, 153);
+  color: white;
+}
+
+.btn:active {
+  background-color: rgb(172, 70, 161);
+  transform: translateY(4px);
+}
